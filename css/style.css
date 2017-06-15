@@ -1,0 +1,136 @@
+html, body, ul, li, h1, h2, h3, h4, h5, h6, p, div, span, object, iframe, img, strong, b, u, i, table, tbody, tfoot, thead, td, th, tr form, label, legend, header, footer, article, section, aside { margin: 0; padding: 0; border: 0; vertical-align: baseline; }
+
+input:focus, select:focus, textarea:focus { outline: none; }
+
+* { box-sizing: border-box; }
+
+table, td, th, tr { border-collapse: collapse; border-spacing: 0; }
+
+html, body { width: 100%; height: 100%; }
+
+input, select, textarea { font-family: arial, helvetica, sans-serif; font-weight: 400; color: #000; }
+
+button { font-family: arial, helvetica, sans-serif; font-weight: 400; color: #000; cursor: pointer; }
+
+input[type="button"], input[type="submit"] { cursor: pointer; }
+
+.clear { clear: both; font-size: 0; }
+
+.clearfix::after { clear: both; content: ""; display: table; }
+
+body { font-family: "robotoregular", arial, sans-serif; font-size: 13px; line-height: 1.3; background: #fff; color: #888888;}
+
+.container { width: 1000px; max-width: 1170px; min-width: 780px; margin: 0 auto; position: relative; box-sizing: border-box; }
+
+header .main-header .search .search-btn { font-family: "exo_2regular", arial, cursive; }
+
+.advanced_search { margin: 34px 25px 0 0; float: right;}
+.advanced_search a { background-color: #2c3d61; color: #fff; padding: 7px 13px; text-decoration: none; font-size: 15px; border-radius: 2px;}
+
+.features-block .sidebar h4, .main-news-block h4, .main-news-block .news-img .text p, .citizens-block h4, footer .column h4 { font-family: "exo_2bold", arial, cursive; }
+
+.features-block .options-block .option .text span { font-family: "exo_2semi_bold", arial, cursive; }
+
+header .img-block .text h1 { font-family: "exo_2extra_bold", arial, cursive; }
+
+header .top-header { height: 24px; background: #2c3d61; border-bottom: 1px solid #1c2f55; padding-top: 3px;}
+header .top-header .text { float: right; margin-right: 11px; }
+header .top-header .text span { font-size: 12px; color: #fff; }
+header .top-header .text .left { position: relative; margin-right: 18px; }
+header .top-header .text .left:after { content: ""; position: absolute; top: 4px; left: auto; right: -11px; bottom: auto; width: 1px; height: 10px; background: #fff; }
+header .main-header { height: 94px; border-top: 1px solid #fff; background: #fff; }
+header .main-header .logo { float: left; margin: 5px 0 0 16px; }
+header .main-header .nav-menu { float: left; margin: 34px 0 0 130px; }
+header .main-header .nav-menu ul { list-style: none; }
+header .main-header .nav-menu ul li { display: inline-block; padding: 0 9px; border-right: 1px solid #b9b9b9; }
+header .main-header .nav-menu ul li a { text-decoration: none; color: #2c3d61; font-size: 14px; }
+header .main-header .nav-menu ul :last-child { border-right: none; }
+header .main-header .search { float: right; margin: 27px 24px 0 0; position: relative; }
+header .main-header .search .search-btn { width: 230px; height: 33px; border: 1px solid #b9b9b9; outline: none; border-radius: 9px 3px 3px 9px; padding: 0 0 0 10px; }
+header .main-header .search a.icon { padding: 8px 10px; background: #2c3d61; border-radius: 0 3px 3px 0; position: absolute; top: 0px; left: auto; right: 0px; bottom: auto; }
+header .img-block { height: 400px; background: url(../upload/main-pic.jpg) 0 0 no-repeat; background-size: cover; padding: 59px 0 0 88px; }
+header .img-block .text h1 { font-size: 48px; color: #fff; line-height: 1.22; }
+
+.content-block .container { margin-top: -102px; background: #fff; }
+
+.features-block { padding-bottom: 20px; border-bottom: 1px solid #c9c9c9; }
+.features-block .options-block { width: 675px; float: left; }
+.features-block .options-block .option { width: 324px; height: 215px; float: left; margin: 6px; padding: 35px 5px 5px 37px; }
+.features-block .options-block .option .text span { font-size: 30px; color: #fff; margin-bottom: 20px; display: block; }
+.features-block .options-block .option .text a { padding: 4px 13px; border: 1px solid #fff; text-decoration: none; color: #fff; font-size: 18px; border-radius: 25px; }
+.features-block .options-block .option-1 { background: url(../upload/opt-1.jpg); }
+.features-block .options-block .option-2 { background: url(../upload/opt-2.jpg); }
+.features-block .options-block .option-3 { background: url(../upload/opt-3.jpg); }
+.features-block .options-block .option-4 { background: url(../upload/opt-4.jpg); }
+.features-block .options-block .option-5 { background: url(../upload/opt-5.jpg); }
+.features-block .options-block .option-6 { background: url(../upload/opt-6.jpg); }
+.features-block .sidebar { width: 320px; float: right; }
+.features-block .sidebar h4 { color: #2c3d61; font-size: 30px; position: relative; margin: 14px 0 0 11px; display: block; text-decoration: none; }
+.features-block .sidebar h4::after { content: ""; position: absolute; bottom: -10px; left: -8px; width: 301px; height: 7px; background: #2c3d61; }
+.features-block .sidebar ul { margin-top: 19px; list-style: none; margin-bottom: 21px; }
+.features-block .sidebar ul li { padding: 9px 5px 19px 0; border-bottom: 1px solid #6f6f6f; }
+.features-block .sidebar ul li a { text-decoration: none; color: #4c4c4c; font-size: 13px; }
+.features-block .sidebar ul li img { float: left; margin-top: 18px; }
+.features-block .sidebar ul li p { float: left; width: 200px; margin-left: 3px; }
+.features-block .sidebar ul :last-child { border-bottom: none; }
+.features-block .sidebar .archive { padding: 4px 12px; color: #414141; font-size: 18px; border: 1px solid #414141; text-decoration: none; border-radius: 17px; margin: 0px 0 0 85px; }
+
+.main-news-block { padding-bottom: 27px; border-bottom: 1px solid #c9c9c9; }
+.main-news-block h4 { margin: 10px 0 0 14px; }
+.main-news-block h4 { text-decoration: none; color: #2c3d61; font-size: 36px; position: relative; }
+.main-news-block h4:after { content: ""; position: absolute; top: 60px; left: 0px; width: 117px; height: 7px; background: #2c3d61; }
+.main-news-block .main-news-link { text-decoration: none; }
+.main-news-block .news-img { margin: 50px 0 0 13px; width: 980px; height: 503px; background: url(../upload/main-news.jpg) 0 0 no-repeat; position: relative; }
+.main-news-block .news-img .text { padding: 18px 32px; background-color: rgba(35, 35, 35, 0.5); position: absolute; top: auto; left: auto; right: auto; bottom: 0; }
+.main-news-block .news-img .text p { color: #fff; font-size: 30px; }
+
+.citizens-block { padding: 0 10px 46px 12px; }
+.citizens-block h4 { margin: 24px 0 0 6px; }
+.citizens-block h4 { text-decoration: none; color: #2c3d61; font-size: 48px; position: relative; }
+.citizens-block h4:after { content: ""; position: absolute; top: 73px; left: 0px; width: 117px; height: 7px; background: #2c3d61; }
+.citizens-block .words-block { margin-top: 46px; position: relative; }
+.citizens-block .words-block ul { list-style: none; }
+.citizens-block .words-block ul li { display: inline-block; background: #dcdcdc; padding: 5px 10px; margin-bottom: 9px; }
+.citizens-block .words-block ul li a { text-decoration: none; color: #464646; font-size: 18px; }
+.citizens-block .words-block .bank-img { position: absolute; top: auto; left: auto; right: 0; bottom: 8px; }
+.citizens-block .pics-block { margin-top: 27px; }
+.citizens-block .pics-block ul { list-style: none; }
+.citizens-block .pics-block ul li { display: inline-block; margin: 0 5px; }
+
+footer { background: #dee0e2; padding: 0 34px; }
+footer .column { float: left; }
+footer .column ul { list-style: none; }
+footer .column ul li { margin: 21px 0; }
+footer .column ul li a { color: #333333; font-size: 18px; text-decoration: none; }
+footer .column h4 { margin: 16px 0 0 0px; }
+footer .column h4 { text-decoration: none; color: #2c3d61; font-size: 36px; position: relative; }
+footer .column h4:after { content: ""; position: absolute; top: 60px; left: 0px; width: 117px; height: 7px; background: #2c3d61; }
+footer .first { width: 35%; padding-left: 20px; position: relative; }
+footer .first ul { margin-top: 41px; padding-right: 80px; }
+footer .first ul .icon { margin-top: -16px; }
+footer .first ::after { content: ""; position: absolute; top: 95px; left: auto; right: 0; bottom: auto; width: 1px; height: 144px; background: #ababab; }
+footer .second { width: 32%; padding: 0px 3px 0 28px; position: relative; }
+footer .second .download { margin-top: 38px; }
+footer .second .download img.appstore { margin-right: 13px; }
+footer .second ::after { content: ""; position: absolute; top: 95px; left: auto; right: 0; bottom: auto; width: 1px; height: 144px; background: #ababab; }
+footer .third { width: 32%; padding: 0px 10px 0 22px; }
+footer .third ul { margin-top: 41px; }
+footer .third .social { margin-top: 30px; }
+footer .third .social a { margin-right: 3px; }
+
+.copyright { height: 40px; background: #3a3a3a; text-align: center; }
+.copyright p { color: #fefefe; font-size: 14px; line-height: 40px; }
+
+.title { border-top: 1px solid #e4e4e4; padding: 2% 15%; }
+.title h3 { font-size: 24px; margin-bottom: 10px; color: #2c3d61; font-family: "exo_2bold", arial, cursive; }
+.title h4 { font-size: 16px; margin-bottom: 20px; color: #a7a7a7; border-bottom: 1px solid #e4e4e4; padding-bottom: 20px; }
+.title p { font-size: 16px; margin: 30px 0; color: #313131; }
+.title a { font-size: 16px; margin: 30px 0; text-decoration: none; color: #6b8abb; }
+.title ul, .title ol { font-size: 16px; color: #313131; -webkit-margin-before: 1em; -webkit-margin-after: 1em; -webkit-margin-start: 0px; -webkit-margin-end: 0px; -webkit-padding-start: 15px; }
+.title blockquote { font-size: 16px; padding: 0 1em; color: #313131; border-left: 0.25em solid #dfe2e5; display: block; -webkit-margin-before: 1em; -webkit-margin-after: 1em; -webkit-margin-start: 15px; -webkit-margin-end: 15px;}    
+.title table { width: 100%; border-collapse: collapse; }
+.title th, .title td { border: 1px solid #313131; padding: 3px 5px; }
+.title th { background-color: #e2e2e2; color: #313131; font-size: 14px; }
+.title tr { color: #313131; font-size: 14px; }
+.title input, .title textarea { font-size: 14px; width: 50%; padding: 6px 5px; color: #313131; margin: 5px 0;}
+.title button { border: 0; background-color: #313131; color: #fff; padding: 10px 15px; font-size: 16px; }

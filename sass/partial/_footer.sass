@@ -1,0 +1,75 @@
+footer
+	background: #dee0e2
+	padding: 0 34px
+	.column
+		float: left
+		ul
+			list-style: none
+			li
+				margin: 21px 0
+				a
+					color: #333333
+					font-size: 18px
+					text-decoration: none
+		h4
+			margin: 16px 0 0 0px
+			a
+				text-decoration: none
+				@extend %ff_exo_bold
+				color: #2c3d61
+				font-size: 36px
+				position: relative
+				&:after
+					content: ""
+					position: absolute
+					top: 60px
+					left: 0px
+					width: 117px
+					height: 7px
+					background: #2c3d61
+	.first
+		width: 35%
+		padding-left: 20px
+		position: relative
+		ul
+			margin-top: 41px
+			padding-right: 80px
+			.icon
+				margin-top: -16px
+		& ::after
+			content: ""
+			+position(95px, 0, auto, auto)
+			width: 1px
+			height: 144px
+			background: #ababab
+	.second
+		width: 32%
+		padding: 0px 3px 0 28px
+		position: relative
+		.download
+			margin-top: 38px
+			img.appstore
+				margin-right: 13px
+		& ::after
+			content: ""
+			+position(95px, 0, auto, auto)
+			width: 1px
+			height: 144px
+			background: #ababab
+	.third
+		width: 32%
+		padding: 0px 10px 0 22px
+		ul
+			margin-top: 41px
+		.social
+			margin-top: 30px
+			a
+				margin-right: 3px
+.copyright
+	height: 40px
+	background: #3a3a3a
+	text-align: center
+	p
+		color: #fefefe
+		font-size: 14px
+		line-height: 40px

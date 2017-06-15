@@ -1,0 +1,75 @@
+header
+	.top-header
+		height: 24px
+		background: #2c3d61
+		border-bottom: 1px solid #1c2f55
+		.text
+			float: right
+			margin-right: 11px
+			span
+				font-size: 12px
+				color: #fff
+			.left
+				position: relative
+				margin-right: 18px
+				&:after
+					content: ""
+					+position(1px, -11px, auto, auto)
+					width: 1px 
+					height: 18px
+					background: #fff
+	.main-header
+		height: 94px
+		border-top: 1px solid #fff
+		background: #fff
+		.logo
+			float: left
+			margin: 5px 0 0 16px
+		.nav-menu
+			float: left
+			margin: 34px 0 0 191px
+			ul
+				list-style: none
+				li
+					display: inline-block
+					padding: 0 9px
+					border-right: 1px solid #b9b9b9
+					a
+						text-decoration: none
+						color: #2c3d61
+						font-size: 14px
+				& :last-child
+					border-right: none
+		.search
+			float: right
+			margin: 25px 24px 0 0 
+			position: relative
+			.search-btn
+				width: 230px
+				height: 33px
+				border: 1px solid #b9b9b9
+				outline: none
+				border-radius: 9px 3px 3px 9px
+				padding: 0 0 0 10px
+				@extend %ff_exo_regular
+			a.icon
+				padding: 6px 8px
+				background: #2c3d61
+				border-radius: 0 3px 3px 0
+				+position(0px, 0px, auto, auto)
+	.img-block
+		height: 400px
+		background: url(../upload/main-pic.jpg) 0 0 no-repeat
+		background-size: cover
+		padding: 59px 0 0 88px
+		.text
+			h1
+				font-size: 48px
+				@extend %ff_exo_extrabold
+				color: #fff
+				line-height: 1.22
+
+
+				
+
+
